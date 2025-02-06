@@ -9,7 +9,7 @@ export function Hero() {
   return (
     <section
       id="home"
-      className="min-h-screen flex flex-col justify-center py-20 lg:py-0"
+      className="min-h-screen flex flex-col justify-center pt-32 pb-20 lg:py-0"
     >
       <div className="container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
         <motion.div

@@ -7,7 +7,7 @@ import { Skills } from '@/components/Skills'
 
 export default function Home() {
   return (
-    <main className="min-h-screen min-w-screen">
+    <main className="min-h-screen overflow-hidden">
       <Hero />
       <Skills />
       <Projects />
