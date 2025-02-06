@@ -25,6 +25,24 @@ body {
 }
 
 .container {
-  max-width: 85%;
+  width: 88%;
+  max-width: 1440px;
   margin: 0 auto;
+  padding: 0 1rem; /* Adds some padding for smaller screens */
+}
+
+/* Adjust width on small screens */
+@media (max-width: 768px) {
+  .container {
+    width: 95%; /* Expands to 95% on smaller screens */
+    padding: 0 0.75rem;
+  }
+}
+
+/* Even more flexibility for extra-small devices */
+@media (max-width: 480px) {
+  .container {
+    width: 100%;
+    padding: 0 0.5rem;
+  }
 }
