@@ -2,7 +2,7 @@
 
 import { motion } from 'framer-motion'
 import { Mail, Phone } from 'lucide-react'
-import { type FormEvent, useState, type React } from 'react'
+import { type FormEvent, useState, ChangeEvent } from 'react'
 
 export function Contact() {
   const [formData, setFormData] = useState({
@@ -21,7 +21,7 @@ export function Contact() {
   }
 
   const handleChange = (
-    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+    e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
   ) => {
     const { name, value } = e.target
     setFormData((prevData) => ({ ...prevData, [name]: value }))
