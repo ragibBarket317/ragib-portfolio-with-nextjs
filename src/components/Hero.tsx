@@ -80,10 +80,10 @@ export function Hero() {
         >
           <div className="absolute inset-0 bg-purple-500/20 rounded-3xl transform rotate-6" />
           <Image
-            src="/ragib.png"
+            src="/rbm.png"
             alt="Profile"
-            width={360}
-            height={360}
+            width={800}
+            height={800}
             className="rounded-3xl relative z-10 object-cover w-full h-full"
           />
         </motion.div>
