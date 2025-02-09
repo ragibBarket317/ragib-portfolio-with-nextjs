@@ -48,8 +48,8 @@ export const projects = [
       'This is the weather dashboard project, which is a web application that provides real-time weather information for a location.',
     image: '/weather.png',
     tags: ['React', 'OpenWeather API'],
-    demoLink: '#',
-    sourceLink: '#',
+    demoLink: 'https://weather-dashboard-omega.vercel.app',
+    sourceLink: 'https://github.com/ragibBarket317/weather-dashboard',
   },
 ]
 
